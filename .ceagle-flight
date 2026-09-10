@@ -1,0 +1,24 @@
+[program]
+name = "CEagle Flight Demo (LibLoad)"
+version = "1.0.0"
+summary = "LibLoad library to test LibLoad cloud builds"
+description = """
+A small LibLoad library of integer and string helpers. Used to test LibLoad cloud builds.
+"""
+categories = ["libs"]
+tags = ["demo"]
+author = "alessiodam"
+
+[library]
+mode = "libify"
+name = "DEMOLIB"
+version = 1
+src = "src"
+include = "."
+exports = "exports.txt"
+headers = ["demolib.h"]
+depends = []
+optimize = "-Oz"
+
+[build]
+timeout = "10m"

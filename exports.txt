@@ -1,0 +1,7 @@
+demolib_min
+demolib_max
+demolib_clamp
+demolib_abs
+demolib_gcd
+demolib_strlen
+demolib_reverse
