@@ -1,6 +1,6 @@
 [program]
 name = "CEagle Flight Demo (LibLoad)"
-version = "1.0.0"
+version = "1.0.1"
 summary = "LibLoad library to test LibLoad cloud builds"
 description = """
 A small LibLoad library of integer and string helpers. Used to test LibLoad cloud builds.
