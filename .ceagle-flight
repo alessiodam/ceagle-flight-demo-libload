@@ -17,7 +17,6 @@ src = "src"
 include = "."
 exports = "exports.txt"
 headers = ["demolib.h"]
-depends = []
 optimize = "-Oz"
 
 [build]
